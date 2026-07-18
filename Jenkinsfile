@@ -9,7 +9,7 @@ pipeline {
         
         stage ("Deploy") {
             steps {
-                sh 'docker run -itd --name bus -p 8888:80 pavan/abinay:bus'
+                sh 'docker run -itd --name bus -p 8888:80 pavan123/abinay:bus'
             }
         }
     }
